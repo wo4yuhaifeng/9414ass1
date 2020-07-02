@@ -156,8 +156,8 @@ def hard_endin_range(day1,time1,day2,time2):
 
 
 # Read input.txt and change information to dict number that can easy to calculate binary_constraint、hard_constraint、soft_constraint
-#filename = sys.argv[1]
-filename = 'input1.txt'
+filename = sys.argv[1]
+#filename = 'input1.txt'
 
 domain = {'11', '12', '13', '14', '15', '16', '17', '18', '19', '21', '22', '23', '24', '25', '26', '27', '28', '29', '31', '32', '33', '34', '35', '36', '37', '38', '39', '41', '42', '43', '44', '45', '46', '47', '48', '49', '51', '52', '53', '54', '55', '56', '57', '58', '59'}
 
