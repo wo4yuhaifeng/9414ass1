@@ -272,15 +272,6 @@ with open(filename,'r') as file:
                 hard_constraint.append(Constraint((task,), hard_ends_after_time(time)))
 
 
-print(soft_constraint)
-print(hard_constraint)
-print(task_domain)
-
-
-
-
-
-
 class Search_with_AC_from_Cost_CSP(Search_with_AC_from_CSP):
     def __init__(self,csp):
         super().__init__(csp)
