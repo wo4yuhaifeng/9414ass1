@@ -15,9 +15,10 @@ constraint, t5 same-day t6
 # domain constraint
 domain, t5 starts-after tue 11am
 domain, t6 fri
-domain, t2 starts-in mon 10am-tue 5pm
-domain, t3 ends-before tue 9am
+domain, t5 ends-in fri 10am-fri 5pm
+domain, t3 ends-after tue 9am
 
 # soft deadlines
 domain, t4 ends-by mon 3pm 20
 domain, t6 ends-by tue 5pm 10
+
